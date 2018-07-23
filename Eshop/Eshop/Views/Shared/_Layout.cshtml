@@ -1,6 +1,9 @@
 ﻿<!DOCTYPE html>
+
 <html>
+
 <head>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Eshop</title>
@@ -8,7 +11,9 @@
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
+
 <body>
+
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -22,12 +27,12 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Categories", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Customer service", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Forums", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About us", "Index", "Home")</li>
-                    <li>@Html.ActionLink("App", "Index", "Home") </li>
+                    <li>@Html.ActionLink("Categories", "Categories", "Categories")</li>
+                    <li>@Html.ActionLink("Customer service", "CustomerService", "CustomerService")</li>
+                    <li>@Html.ActionLink("Forums", "Forums", "Forums")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Contact")</li>
+                    <li>@Html.ActionLink("About us", "AboutUs", "AboutUs")</li>
+                    <li>@Html.ActionLink("App", "App", "App") </li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
@@ -44,5 +49,7 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
 </body>
+
 </html>
