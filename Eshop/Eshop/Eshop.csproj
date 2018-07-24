@@ -207,6 +207,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AboutUsController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
@@ -284,7 +285,7 @@
     <Content Include="Views\CustomerService\CustomerService.cshtml" />
     <Content Include="Views\Forums\Forums.cshtml" />
     <Content Include="Views\Contact\Contact.cshtml" />
-    <Content Include="Views\Home\AboutUs.cshtml" />
+    <Content Include="Views\AboutUs\AboutUs.cshtml" />
     <Content Include="Views\Home\App.cshtml" />
   </ItemGroup>
   <ItemGroup>
