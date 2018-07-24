@@ -275,6 +275,12 @@
     <Content Include="Img\thumb-product02.jpg" />
     <Content Include="Img\thumb-product03.jpg" />
     <Content Include="Img\thumb-product04.jpg" />
+    <Content Include="JS\bootstrap.min.js" />
+    <Content Include="JS\jquery.min.js" />
+    <Content Include="JS\jquery.zoom.min.js" />
+    <Content Include="JS\main.js" />
+    <Content Include="JS\nouislider.min.js" />
+    <Content Include="JS\slick.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
