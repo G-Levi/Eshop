@@ -209,6 +209,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CategoriesController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\CustomerServiceController.cs" />
     <Compile Include="Controllers\ForumsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -282,7 +283,7 @@
     <Content Include="Views\Categories\Categories.cshtml" />
     <Content Include="Views\CustomerService\CustomerService.cshtml" />
     <Content Include="Views\Forums\Forums.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Contact\Contact.cshtml" />
     <Content Include="Views\Home\AboutUs.cshtml" />
     <Content Include="Views\Home\App.cshtml" />
   </ItemGroup>
