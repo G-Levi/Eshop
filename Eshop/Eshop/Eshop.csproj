@@ -230,6 +230,12 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="CSS\bootstrap.min.css" />
+    <Content Include="CSS\font-awesome.min.css" />
+    <Content Include="CSS\nouislider.min.css" />
+    <Content Include="CSS\slick-theme.css" />
+    <Content Include="CSS\slick.css" />
+    <Content Include="CSS\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
