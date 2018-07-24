@@ -210,6 +210,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\CustomerServiceController.cs" />
+    <Compile Include="Controllers\ForumsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -280,7 +281,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Categories\Categories.cshtml" />
     <Content Include="Views\CustomerService\CustomerService.cshtml" />
-    <Content Include="Views\Home\Forums.cshtml" />
+    <Content Include="Views\Forums\Forums.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\AboutUs.cshtml" />
     <Content Include="Views\Home\App.cshtml" />
