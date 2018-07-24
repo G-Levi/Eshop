@@ -283,9 +283,12 @@
     <Content Include="Img\thumb-product03.jpg" />
     <Content Include="Img\thumb-product04.jpg" />
     <Content Include="JS\bootstrap.min.js" />
+    <Content Include="JS\intro_jquery-2.1.4.js" />
     <Content Include="JS\jquery.min.js" />
     <Content Include="JS\jquery.zoom.min.js" />
     <Content Include="JS\main.js" />
+    <Content Include="JS\intro_main.js" />
+    <Content Include="JS\intro_modernizr.js" />
     <Content Include="JS\nouislider.min.js" />
     <Content Include="JS\slick.min.js" />
     <Content Include="Scripts\bootstrap.js" />
