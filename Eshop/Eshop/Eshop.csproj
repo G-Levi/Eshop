@@ -357,6 +357,7 @@
     <Content Include="Views\AboutUs\AboutUs.cshtml" />
     <Content Include="Views\App\App.cshtml" />
     <Content Include="SCSS\style.scss" />
+    <Content Include="Views\Home\MainPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
