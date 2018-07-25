@@ -226,6 +226,11 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\bg-img.jpg" />
+    <Content Include="Assets\svg-mask\video-mask-small.svg" />
+    <Content Include="Assets\svg-mask\video-mask.svg" />
+    <Content Include="Assets\video.mp4" />
+    <Content Include="Assets\video.webm" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
