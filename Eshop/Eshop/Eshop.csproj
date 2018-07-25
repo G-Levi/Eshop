@@ -215,6 +215,7 @@
     <Compile Include="Controllers\CustomerServiceController.cs" />
     <Compile Include="Controllers\ForumsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MainPageController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -357,7 +358,7 @@
     <Content Include="Views\AboutUs\AboutUs.cshtml" />
     <Content Include="Views\App\App.cshtml" />
     <Content Include="SCSS\style.scss" />
-    <Content Include="Views\Home\MainPage.cshtml" />
+    <Content Include="Views\MainPage\MainPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
