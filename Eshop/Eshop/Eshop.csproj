@@ -304,6 +304,9 @@
     <Content Include="Fonts\slick.eot" />
     <Content Include="Fonts\slick.ttf" />
     <Content Include="Fonts\slick.woff" />
+    <Content Include="Partials\_layout.scss" />
+    <Content Include="Partials\_mixins.scss" />
+    <Content Include="Partials\_variables.scss" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
