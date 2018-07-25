@@ -238,9 +238,11 @@
     <Content Include="CSS\bootstrap.min.css" />
     <Content Include="CSS\font-awesome.min.css" />
     <Content Include="CSS\nouislider.min.css" />
+    <Content Include="CSS\intro_reset.css" />
     <Content Include="CSS\slick-theme.css" />
     <Content Include="CSS\slick.css" />
     <Content Include="CSS\style.css" />
+    <Content Include="CSS\intro_style.css" />
     <Content Include="favicon.ico" />
     <Content Include="Fonts\fontawesome-webfont.svg" />
     <Content Include="Fonts\glyphicons-halflings-regular.svg" />
