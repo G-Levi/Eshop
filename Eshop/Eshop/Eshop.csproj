@@ -356,6 +356,7 @@
     <Content Include="Views\Contact\Contact.cshtml" />
     <Content Include="Views\AboutUs\AboutUs.cshtml" />
     <Content Include="Views\App\App.cshtml" />
+    <Content Include="SCSS\style.scss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
