@@ -1,0 +1,39 @@
+﻿@using Eshop.Models;
+
+@model Category
+
+
+@using (Html.BeginForm("AddCategory", "Categories", FormMethod.Post))
+{
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.Id_Category)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Id_Category, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Id_Category)
+                @Html.ValidationMessageFor(model => model.Id_Category)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Name)
+                @Html.ValidationMessageFor(model => model.Name)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Add" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
+
+

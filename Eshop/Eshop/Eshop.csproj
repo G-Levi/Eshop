@@ -45,6 +45,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GridMvc, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Grid.Mvc.3.0.0\lib\net40\GridMvc.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -236,6 +239,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Gridmvc.css" />
     <Content Include="CSS\bootstrap.min.css" />
     <Content Include="CSS\font-awesome.min.css" />
     <Content Include="CSS\nouislider.min.css" />
@@ -308,7 +312,11 @@
     <Content Include="Partials\_layout.scss" />
     <Content Include="Partials\_mixins.scss" />
     <Content Include="Partials\_variables.scss" />
+    <Content Include="Grid.mvc.readme" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\gridmvc.js" />
+    <Content Include="Scripts\gridmvc.lang.ru.js" />
+    <Content Include="Scripts\gridmvc.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
@@ -351,7 +359,6 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Categories\Categories.cshtml" />
     <Content Include="Views\CustomerService\CustomerService.cshtml" />
     <Content Include="Views\Forums\Forums.cshtml" />
     <Content Include="Views\Contact\Contact.cshtml" />
@@ -359,6 +366,16 @@
     <Content Include="Views\App\App.cshtml" />
     <Content Include="SCSS\style.scss" />
     <Content Include="Views\MainPage\MainPage.cshtml" />
+    <Content Include="Views\Categories\AddCategory.cshtml" />
+    <Content Include="Views\Categories\BrowseCategory.cshtml" />
+    <Content Include="Views\Categories\BrowseItem.cshtml" />
+    <Content Include="Views\Categories\Categories.cshtml" />
+    <Content Include="Views\Categories\Details.cshtml" />
+    <Content Include="Views\Categories\Edit.cshtml" />
+    <Content Include="Views\Categories\Index.cshtml" />
+    <Content Include="Views\Categories\Item.cshtml" />
+    <Content Include="Views\Shared\_GridPager.cshtml" />
+    <Content Include="Views\Shared\_Grid.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

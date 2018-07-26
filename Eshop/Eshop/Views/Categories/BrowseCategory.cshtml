@@ -1,0 +1,22 @@
+﻿@using System.Web.Mvc;
+@using System.Linq;
+@using Eshop.Models;
+
+@model Category
+
+
+@{
+    ViewBag.Title = "BrowseCategory";
+}
+
+<h2>Browsing Category: @Model.Name</h2>
+@*<p>
+    Select from @Model.Count()
+    genres:
+</p>*@
+<ul>
+    @*@foreach (var item in Model)
+    {*@
+        <li>@Html.ActionLink(Model.Id_Category.ToString(), "BrowseItem", new { item = Model.Id_Category })</li> @*Controller action name = Browse si dupa valoare*@
+    @*}*@
+</ul>
