@@ -223,6 +223,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Basket.cs" />
     <Compile Include="Models\Basket_Product.cs" />
@@ -283,7 +284,7 @@
     <Content Include="Img\banner14.jpg" />
     <Content Include="Img\banner15.jpg" />
     <Content Include="Img\oldlogo.png" />
-    <Content Include="Img\logo.png.png" />
+    <Content Include="Img\logo.png" />
     <Content Include="Img\main-product01.jpg" />
     <Content Include="Img\main-product02.jpg" />
     <Content Include="Img\main-product03.jpg" />
@@ -388,7 +389,7 @@
     <Content Include="Views\Categories\Item.cshtml" />
     <Content Include="Views\Shared\_GridPager.cshtml" />
     <Content Include="Views\Shared\_Grid.cshtml" />
-    <Content Include="Views\Contact\Contact.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
