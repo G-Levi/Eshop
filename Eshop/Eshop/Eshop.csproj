@@ -361,7 +361,6 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\CustomerService\CustomerService.cshtml" />
     <Content Include="Views\Forums\Forums.cshtml" />
-    <Content Include="Views\Contact\Contact.cshtml" />
     <Content Include="Views\AboutUs\AboutUs.cshtml" />
     <Content Include="Views\App\App.cshtml" />
     <Content Include="SCSS\style.scss" />
@@ -376,6 +375,7 @@
     <Content Include="Views\Categories\Item.cshtml" />
     <Content Include="Views\Shared\_GridPager.cshtml" />
     <Content Include="Views\Shared\_Grid.cshtml" />
+    <Content Include="Views\Contact\Contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

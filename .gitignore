@@ -261,3 +261,4 @@ __pycache__/
 *.pyc
 /Eshop/Eshop/Views/Categories/0Categories.cshtml
 /Eshop/Eshop/Controllers/0CategoriesController.cs
+/Eshop/Eshop/Views/Contact/0Contact.cshtml
