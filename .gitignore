@@ -260,3 +260,4 @@ paket-files/
 __pycache__/
 *.pyc
 /Eshop/Eshop/Views/Categories/0Categories.cshtml
+/Eshop/Eshop/Controllers/0CategoriesController.cs
