@@ -224,8 +224,21 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Basket.cs" />
+    <Compile Include="Models\Basket_Product.cs" />
+    <Compile Include="Models\Categories.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\ClientAdminController.cs" />
+    <Compile Include="Models\Command.cs" />
+    <Compile Include="Models\Contact.cs" />
+    <Compile Include="Models\DbContextController.cs" />
+    <Compile Include="Models\EshopContext.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Item.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\ShoppingStoreDB.cs" />
+    <Compile Include="Models\ShoppingStoreDBInitializer.cs" />
+    <Compile Include="Models\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
