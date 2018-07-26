@@ -1,0 +1,46 @@
+﻿@using Eshop.Models;
+
+
+@model Category
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+@if (Model.Id_Category > 0)
+{
+    <h2>Edit</h2>
+}
+else
+{
+    <h2>Add</h2>
+}
+
+
+@using (Html.BeginForm("Edit", "Categories", FormMethod.Post))
+{
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.Id_Category)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Id_Category, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.Label(Model.Id_Category.ToString(), new { @class = "control-label col-md-2" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Name)
+                @Html.ValidationMessageFor(model => model.Name)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
