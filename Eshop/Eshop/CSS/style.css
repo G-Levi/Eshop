@@ -1,6 +1,6 @@
 /*
-Template Name: E-SHOP HTML E-Commerce Template
-Author: yaminncco
+Template Name: Eshop
+Author: G.Levi
 
 Colors:
 	Body 		  : #4A4E5A
@@ -27,7 +27,7 @@ Table OF Contents
 ------ Account header
 ------ Cart header
 3 > NAVIGATION
------- Category nav
+------ Category navinpu
 ------ Menu nav
 ------ Dropdowns
 ------ Mobile Nav
@@ -107,6 +107,7 @@ ul, ol {
 }
 
 hr {
+  width: 90%;
   margin-top: 15px;
   margin-bottom: 15px;
   border-color: #DADADA;
@@ -163,7 +164,7 @@ hr {
 \*----------------------------*/
 
 .input {
-  width: 100%;
+  width: 80%;
   height: 40px;
   padding: 0px 15px;
   border: none;
@@ -345,8 +346,8 @@ textarea.input {
 }
 
 .header-logo .logo>img {
-  width: 100%;
-  max-height: 70px;
+  width: 80%;
+  max-height: 50px;
 }
 
 /*----------------------------*\
@@ -364,7 +365,7 @@ textarea.input {
 }
 
 .header-search>form .search-input {
-  padding-left: 150px;
+  padding-left: 500px;
   padding-right: 45px;
 }
 

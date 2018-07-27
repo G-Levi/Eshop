@@ -64,7 +64,7 @@ General Style
 }
 .cd-intro-content .action-wrapper::after {
   clear: both;
-  content: "";
+  content: "Eshop";
   display: table;
 }
 .cd-intro-content .action-wrapper > * {
@@ -129,7 +129,7 @@ General Style
 .cd-intro-content h1 span, .no-cssanimations
 .cd-intro-content p, .no-cssanimations
 .cd-intro-content .cd-btn {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 /* -------------------------------- 
